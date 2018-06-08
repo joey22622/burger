@@ -7,6 +7,7 @@ CREATE TABLE burgers(
     id INT(10) NOT NULL AUTO_INCREMENT,
     burger_name VARCHAR(100) NOT NULL,
     devoured BOOLEAN NOT NULL,
+    photo VARCHAR(9000),
     PRIMARY KEY(id)
 );
 
